@@ -7,15 +7,15 @@
 	</div>
 </div>
 
-<div class="content work">
+<!--<div class="content work">
 	<div class="container text-center">
-		<p>Intro text here</p>
+		<p></p>
 	</div>
-</div>
+</div>-->
 
 <div class="content bg-light web-projects">
 	<div class="container text-center">
-		<h2>Web Projects</h2>
+		<h2 id="webprojects">Web Projects</h2>
 		<div class="row justify-content-center">
 			<div class="col-sm-12 col-md-6">
 				<div class="card h-100 text-center">
@@ -49,7 +49,7 @@
 
 <div class="content photography">
 	<div class="container text-center">
-		<h2>Photography</h2>
+		<h2 id="photography">Photography</h2>
 		<div class="container gallery-container">
 			<div class="photography-gallery">
 				<div class="row">
@@ -172,7 +172,7 @@
 
 <div class="content bg-light graphic-design">
 	<div class="container text-center">
-		<h2>Graphic Design</h2>
+		<h2 id="graphicdesign">Graphic Design</h2>
 		<div class="row justify-content-center">
 			<div class="col-sm-12 col-md-6 col-lg-4">
 				<div class="card h-100 text-center">
@@ -301,7 +301,7 @@
 
 <div class="content media-production">
 	<div class="container text-center">
-		<h2>Media Production</h2>
+		<h2 id="mediaproduction">Media Production</h2>
 		<div class="row justify-content-center">
 			<div class="col-sm-12">
 				<div class="card h-100 text-center">
