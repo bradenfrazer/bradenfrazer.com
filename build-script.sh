@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Build script for serving static content instead of php files
-DEST="./html"
+DEST="./public_html"
 html=".html"
 
 # Create destination folder
