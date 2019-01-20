@@ -30,4 +30,12 @@ do
     echo "Processing $f file..";
 done
 
+#Copy all images
+cp -a ./images/ "$DEST/images"
+echo "Processing images..";
+
+#Copy omb folder
+cp -a ./omb/ "$DEST/omb"
+echo "Processing additional folders..";
+
 echo "Process complete." ;
