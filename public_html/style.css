@@ -1,0 +1,178 @@
+/* style.css */
+/* stylesheet for bradenfrazer.com */
+
+
+/* colors: 
+light grey: #f4f4f4;
+dark: #232323;
+maroon: #500000;
+*/
+
+/* Global
+--------------------------------------------- */
+
+body {
+	background: #fff;
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+	color: #232323;
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hide {
+	display: none;
+}
+
+.content {
+	padding: 2rem 0;
+}
+
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.page-title h1:after {
+     background: none repeat scroll 0 0 #FFF;
+     bottom: -10px;
+     content: "";
+     display: block;
+     height: 0.2rem;
+     position: relative;
+     width: 75px;
+ }
+
+.bg-color, .bg-dark {
+	color: #f4f4f4;
+}
+
+/* Hyperlinks */
+a {
+	color: #500000;
+}
+
+a:hover {
+	color: #232323;
+}
+
+/* Backgrounds */
+.bg-light {
+	background-color: #f2f2f2 !important;
+	background:
+radial-gradient(circle farthest-side at 0% 50%,#f4f4f4 23.5%,rgba(240,166,17,0) 0)21px 30px,
+radial-gradient(circle farthest-side at 0% 50%,#e7e7e7 24%,rgba(240,166,17,0) 0)19px 30px,
+linear-gradient(#f4f4f4 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#f4f4f4 0)0 0,
+linear-gradient(150deg,#f4f4f4 24%,#e7e7e7 0,#e7e7e7 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#e7e7e7 0,#e7e7e7 76%,#f4f4f4 0)0 0,
+linear-gradient(30deg,#f4f4f4 24%,#e7e7e7 0,#e7e7e7 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#e7e7e7 0,#e7e7e7 76%,#f4f4f4 0)0 0,
+linear-gradient(90deg,#e7e7e7 2%,#f4f4f4 0,#f4f4f4 98%,#e7e7e7 0%)0 0 #f4f4f4;
+background-size: 40px 60px;
+}
+
+.bg-dark {
+	background-color: #232323;
+}
+
+.bg-color {
+	background-color: #500000;
+}
+
+/* Buttons */
+
+.btn {
+	border-width: 0.1rem;
+	border-radius: 0;
+	text-transform: uppercase;
+}
+
+.btn-outline-primary {
+	color: #500000;
+	border-color: #500000;
+}
+
+.btn-outline-primary:hover {
+	background-color: #500000;
+	border-color: #500000;
+}
+
+/* Cards */
+
+.card-header {
+	background-color: #500000;
+	color: #fff;
+}
+
+/* Header
+--------------------------------------------- */
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-brand img {
+	max-width: 100px;
+}
+
+.navbar .socials {
+	display: flex;
+}
+
+/* Homepage
+--------------------------------------------- */
+
+/* Hero */
+.jumbotron {
+	background-image: url("../images/design/hero.jpg");
+	background-size: cover;
+	background-position: 50% 25%;
+	min-height: 65vh;
+	border-radius: 0;
+}
+
+.jumbotron h1,
+.jumbotron p {
+	color: #fff;
+}
+
+/* Services */
+
+.services svg {
+	width: 100%;
+	max-width: 125px;
+	margin-bottom: 1rem;
+	fill: #000;
+}
+
+
+/* About
+--------------------------------------------- */
+
+.about img {
+	max-width: 100%;
+	border-radius: 50%;
+}
+
+/* Work
+--------------------------------------------- */
+
+.web-projects .row .col-sm-12.col-md-6, .photography .row .col-sm-12.col-md-6.col-lg-4, .graphic-design .row .col-sm-12.col-md-6.col-lg-4, .media-production .row .col-sm-12.col-md-6.col-lg-4 {
+	margin-bottom: 2rem;
+}
+
+.modal-dialog {
+	max-width: 75vw;
+	max-height: 75vh;
+}
