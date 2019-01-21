@@ -21,7 +21,7 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="main.js"></script>-->
 	<title>
-		<?php echo $page; ?>
+		<?php echo "$page | Braden Frazer"; ?>
 	</title>
 </head>
 

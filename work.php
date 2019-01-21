@@ -26,8 +26,10 @@
 					<img class="card-img-top" src="../images/content/thumbs/spokes-thumb.png" alt="Spokes Bike Shop" style="width:100%;">
 					<div class="card-body">
 						<p class="card-text">Demo site made to practice WordPress theme design and development. WordPress theme created on a heavily modified free version of the <a href="https://bootstrap-wp.com/">Bootstrap 4 WordPress Theme</a> (built on Bootstrap 4, as the name implies) with Contact Form 7 the only WordPress plugin used. Built in a local environment but currently hosting on 000webhost for showcase purposes.</p>
-						<a href="https://spokes-bike-shop.000webhostapp.com/" target="_blank" class="btn btn-outline-primary">Visit Site</a>
 					</div>
+					<div class="card-footer">
+    				<a href="https://spokes-bike-shop.000webhostapp.com/" target="_blank" class="btn btn-outline-primary">Visit Site</a>
+  				</div>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-6">
@@ -39,12 +41,50 @@
 					<img class="card-img-top" src="../images/content/thumbs/omb-home-thumb.png" alt="Old Main Brewery" style="width:100%;">
 					<div class="card-body">
 						<p class="card-text">Freelance project for an up-and-coming College Station, TX brewery. I designed 5 different webpage templates as mockups and then implemented the designs in HTML5, CSS3, and Javascript. You can find each of the templates hosted here on my site, while the site itself prepares to launch.</p>
-						<a href="../omb.html" target="_blank" class="btn btn-outline-primary">Visit Site</a>
+					</div>
+					<div class="card-footer">
+						<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#ombModal">
+							Learn More
+						</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
+
+
+<!-- OMB Modal -->
+<div class="modal fade" id="ombModal" tabindex="-1" role="dialog" aria-labelledby="ombModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ombModalLabel">Old Main Brewery</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<img src="../images/content/thumbs/omb-home-thumb.png" alt="Old Main Brewery" style="width:100%;">
+						</div>
+						<div class="col-sm-8">
+							<p>Freelance project for an up-and-coming College Station, TX brewery. I designed 5 different webpage templates as mockups and then implemented the designs in HTML5, CSS3, and Javascript. Working with one of the co-owners as a client, I went through an iterative process including first producing different mockups in Photoshop and then writing HTML/CSS/JavaScript for the concepts that the client liked best. The templates include animations and responsive elements already optimized for desktop, tablet, and mobile phone viewing of the website. You can find each of the templates hosted here on my site, while the site itself prepares to launch later.</p>
+						</div>
+					</div>
+				</div>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <a href="/omb/index.html" target="_blank" class="btn btn-outline-primary">Home Template</a>
+				<a href="/omb/about-the-brewery/our-brewery/" target="_blank" class="btn btn-outline-primary">About Template</a>
+				<a href="/omb/our-brews/" target="_blank" class="btn btn-outline-primary">Navigation Template</a>
+				<a href="/omb/our-brews/rudders-red-belgian-red-ale/" target="_blank" class="btn btn-outline-primary">Product Template</a>
+				<a href="/omb/contact-us/" target="_blank" class="btn btn-outline-primary">Contact Template</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="content photography">
@@ -183,7 +223,9 @@
 					<img class="card-img-top" src="../images/content/thumbs/risky-ribbit-thumb.png" alt="Risky Ribbit" style="width:100%;">
 					<div class="card-body">
 						<p class="card-text">Risky Ribbit is an Android game developed in Unity with a team for my Senior capstone project at Texas A&M. For the project, I designed all of the UI, graphical assets, and menus used in the game.</p>
-						<a href="riskyribbit.html" target="_blank" class="btn btn-outline-primary">Learn More</a>
+						<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#rrModal">
+  						Learn More
+						</button>
 					</div>
 				</div>
 			</div>
@@ -196,7 +238,9 @@
 					<img class="card-img-top" src="../images/content/thumbs/no-thumb.jpg" alt="Night Owls" style="width:100%;">
 					<div class="card-body">
 						<p class="card-text">Night Owls is a fictional card game that I designed in a Graphic Design class that I took. As part of the project, I designed the vectorized logo, business cards and letter head for the company, and packaging.</p>
-						<a href="nightowls.html" target="_blank" class="btn btn-outline-primary">Learn More</a>
+						<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#owlsModal">
+  						Learn More
+						</button>
 					</div>
 				</div>
 			</div>
@@ -297,6 +341,40 @@
 			</div>
 		</div>
 	</div>
+</div>
+
+<!-- RiskyRibbit Modal -->
+<div class="modal fade" id="rrModal" tabindex="-1" role="dialog" aria-labelledby="rrModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="rrModalLabel">Risky Ribbit</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+				<p>Risky Ribbit is an Android game developed in Unity with a team for my Senior capstone project at Texas A&M. The application was being developed for two professors in the Economics department as a means of studying the economic principles of risk aversion and time-based consumption in children ages 5-16. For the project, I designed most of the UI, graphical assets, and menus used in the game. The game was finished in May of 2017 and will later be used in studies across the country by our clients.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Night Owls Modal -->
+<div class="modal fade" id="owlsModal" tabindex="-1" role="dialog" aria-labelledby="owlsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="owlsModalLabel">Night Owls</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+							<p>Night Owls is a fictional card game that I designed in a Graphic Design class that I took. As part of the project, I designed the vectorized logo, business cards and letter head for the company, and packaging. All of this work was done in Illustator and then printed out in hard copy formats for the final production to be assessed as if it were a real card game.</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="content media-production">
