@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="/images/design/favicon-64x64.png"/>
 
 	<!-- Stylesheet -->
 	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro:400,700" rel="stylesheet">
