@@ -20,7 +20,7 @@
 <div class="content">
 	<div class="container text-center">
 		<h3 class="text-uppercase"><b>I do</b></h3>
-		<h2 class="display-4">website design & video production</h2>
+		<h2 class="display-4">website design & media production</h2>
 		<p>With a unique blended skillset between creative and technical, my passion is fusing the gap between designing and producing media & developing the products and web implementations it is created for.</p>
 		<a href="/about.php" class="btn btn-outline-primary">About Me</a>
 	</div>
@@ -30,7 +30,7 @@
 	<div class="container services">
 		<div class="row">
 			<div class="col-sm text-center">
-				<a href="/work.php#webprojects">
+				<a href="/work#webprojects">
 					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
 						<g>
 							<path d="M62.924,94.729c-1.732-1.274-1.918-3.188-1.918-3.188l-0.65-4.155H39.642l-0.652,4.152c0,0-0.181,1.916-1.914,3.19   c-1.732,1.274-3.099,2.368-1.732,2.554c1.317,0.178,13.74,0.016,14.656,0c0.918,0.016,13.338,0.178,14.654,0   C66.02,97.098,64.652,96.006,62.924,94.729z" />
@@ -75,7 +75,7 @@
 				</a>
 			</div>
 			<div class="col-sm text-center">
-				<a href="/work.php#photography">
+				<a href="/work#photography">
 					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
 						<g>
 							<g>
@@ -117,7 +117,7 @@
 				</a>
 			</div>
 			<div class="col-sm text-center">
-				<a href="/work.php#mediaproduction">
+				<a href="/work#mediaproduction">
 					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 491.858 491.858" style="enable-background:new 0 0 491.858 491.858;" xml:space="preserve">
 						<g>
 							<g>
@@ -194,7 +194,7 @@
 				</a>
 			</div>
 			<div class="col-sm text-center">
-				<a href="/work.php#mediaproduction">
+				<a href="/work#mediaproduction">
 					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 492.523 492.523" style="enable-background:new 0 0 492.523 492.523;" xml:space="preserve">
 						<g>
 							<path d="M126.246,121.549h-30.85V82.932c0-13.84-11.205-25.055-25.037-25.055c-13.832,0-25.066,11.215-25.066,25.055v38.617H14.457   C6.469,121.549,0,128.037,0,136.029v58.738c0,7.992,6.469,14.48,14.457,14.48h30.836v200.344c0,13.84,11.234,25.055,25.066,25.055   c13.832,0,25.037-11.215,25.037-25.055V209.248h30.85c7.969,0,14.457-6.488,14.457-14.48v-58.738   C140.703,128.037,134.215,121.549,126.246,121.549z" />
