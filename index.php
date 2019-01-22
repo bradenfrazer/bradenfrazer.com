@@ -8,7 +8,7 @@
 				<div class="jumbotron h-100 p-0 m-0 d-flex flex-column">
 					<div class="overlay"></div>
 					<div class="container">
-						<h1 class="display-3">Hi, I'm Braden.</h1>
+						<h1 class="display-2">Hi, I'm Braden.</h1>
 						<p class="lead">I make design and digital media happen.</p>
 					</div>
 				</div>

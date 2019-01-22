@@ -9,12 +9,12 @@ maroon: #500000;
 --------------------------------------------- */
 body {
   background: #fff;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   line-height: 1.5rem;
   color: #232323;
   margin: 0;
   padding: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .hide {
@@ -38,7 +38,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
 }
 
 .page-title h1:after {
@@ -48,7 +48,7 @@ h6,
   display: block;
   height: 0.2rem;
   position: relative;
-  width: 75px;
+  width: 80px;
 }
 
 .bg-color, .bg-dark {
@@ -187,6 +187,10 @@ a:hover {
   justify-content: center;
 }
 
+.jumbotron h1 {
+  font-family: 'Caveat Brush', cursive;
+}
+
 .jumbotron h1,
 .jumbotron p {
   color: #fff;
@@ -194,6 +198,11 @@ a:hover {
 }
 
 @media (max-width: 991px) {
+
+  .jumbotron h1 {
+    line-height: 0.75;
+  }
+  
   .jumbotron {
     min-height: 50vh;
     justify-content: flex-end;
