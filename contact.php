@@ -18,7 +18,7 @@
 					Thanks for filling out the form!
 				</div>
 
-				<form action="https://formspree.io/bradenfrazer@gmail.com" method="POST">
+				<form name="contactform" method="POST" data-netlify="true">
 					<div class="row row-sm-offset">
 						<div class="col-md-6 multi-horizontal" data-for="name">
 							<div class="form-group">
