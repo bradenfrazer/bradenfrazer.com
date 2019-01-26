@@ -40,7 +40,7 @@
 
 					<span class="input-group-btn">
 						<div class="text-center">
-							<button href="" type="submit" class="btn btn-outline-primary btn-form display-4">SEND FORM</button>
+							<button href="" type="submit" class="btn btn-outline-primary btn-form display-4">Send</button>
 						</div>
 					</span>
 				</form>
