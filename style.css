@@ -362,6 +362,10 @@ a:hover {
     grid-area: contact;
 }
 
+#resume-about {
+    grid-area: about;
+}
+
 #resume-experience {
     grid-area: experience;
 }
@@ -399,25 +403,20 @@ a:hover {
     display: grid;
     grid-template-areas:
     'name name contact'
+    'experience experience about'
     'experience experience education'
     'experience experience skills'
     'experience experience courses';
   grid-gap: 3rem;
   padding: 3rem;
     padding-top: 5rem;
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
 #resume-grid h1, #resume-grid h2, #resume-grid h3, #resume-grid p, #resume-grid li {
     border: none;
     color: #000;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-#resume-grid h1, #resume-grid h2, #resume-grid  h3 {
     font-family: 'Roboto Slab', serif;
 }
 
@@ -455,6 +454,7 @@ a:hover {
     grid-template-areas:
     'name'
     'contact'
+    'about'
     'education'
     'experience'
     'skills'
@@ -462,4 +462,10 @@ a:hover {
     padding: 1rem;
     padding-top: 3rem;
 }
+
+#resume-grid p, #resume-grid li {
+  margin: 0;
+}
+}
+
 }

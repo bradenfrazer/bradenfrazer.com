@@ -9,14 +9,10 @@
 	<link rel="shortcut icon" type="image/png" href="/images/design/favicon-64x64.png" />
 
 	<!-- Stylesheet -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700|Caveat+Brush" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 	<link href="/style.css" rel="stylesheet" text="text/css" media="screen">
 
 
-	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link href="/style.css" rel="stylesheet" text="text/css" media="screen">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="main.js"></script>-->
 	<title>
 		<?php echo "$page | Braden Frazer"; ?>
 	</title>
@@ -25,43 +21,36 @@
     <div id="resume-grid">
         <div id="resume-name">
             <h1>Braden Frazer</h1>
+						<h3>Dallas, TX</h3>
         </div>
         <div id="resume-contact">
             <p>www.bradenfrazer.com</p>
             <p>(281) 909-7514</p>
             <p>bradenfrazer@gmail.com</p>
         </div>
+				<div id="resume-about">
+						<h2>About</h2>
+						<p>With a unique blended skillset between creative and technical, my passion is fusing the gap between designing and producing media & developing the products and web implementations it is created for. </p>
+				</div>
         <div id="resume-experience">
             <h2>Experience</h2>
-            <h3><strong>ReachLocal | </strong>Website Support Developer</h3>
-            <p><strong>Plano, TX • </strong>March 2018 - present</p>
-            <ul>
-                <li>Resolved client website support cases post-launch and implemented requests or changes in a swift manner. </li>
-                <li>Partnered in the migration of over 1700 websites from a proprietary platform to the Wordpress platform; mitigating issues, squashing bugs, and  QA testing throughout the process. </li>
-                <li>Pioneered efforts to proactively enhance the design and user experience of client migrated websites to ensure  high conversion rates and satisfied clients. </li>
-                <li>Supported the ReachEdge SaaS solution by troubleshooting technical issues and educating US & Canadian potential product usage and features.</li>
-            </ul>
-            <h3><strong>ESPN | </strong>Production Operations Intern (Audio Assist)</h3>
-            <p><strong>Bristol, CT • </strong>September 2017 - November 2017</p>
-            <ul>
-                <li>Programmed, facilitated and monitored communications between the control room and studio.</li>
-                <li>Prepared microphones and placed them on high-profile talent for shows such as SportsCenter.</li>
-                <li>Cleared to work independently on the shows First Take and Econet/Redes without any supervision.</li>
-            </ul>
-            <h3><strong>Texas A&M Athletics | </strong>Technical Director / Audio Operator</h3>
-            <p><strong>College Station, TX • </strong>February 2015 - July 2017</p>
-            <ul>
-                <li>Operated audio board as the A1 for broadcasts of exhibitions of multiple A&M sports to the SEC Network+, including games that went linear to ESPNU and the SEC Network, and sub-mixed in the redeveloped Kyle Field for A&M football games in the 2015 season for over 102,000 people.</li>
-                <li>Operated video switcher as the technical director for broadcasts of exhibitions of multiple A&M sports to the SEC Network+, as well as to the video board in campus sporting venues.</li>
-                <li>Produced graphics, videos, and features needed for A&M Athletics.</li>
-            </ul>
+            <h3><strong>Website Support Developer</strong></h3>
+            <p><strong>ReachLocal  •  Plano, TX  •  March 2018 - present</strong></p>
+            <p>Resolved client website support cases post-launch and implemented requests or changes in a swift manner. Partnered in the migration of over 1700 websites from a proprietary platform to the Wordpress platform; mitigating issues, squashing bugs, and  QA testing throughout the process. Pioneered efforts to proactively enhance the design and user experience of client migrated websites to ensure  high conversion rates and satisfied clients. Supported the ReachEdge SaaS solution by troubleshooting technical issues and educating US & Canadian potential product usage and features.</p>
+						<br>
+            <h3><strong>Production Operations Intern (Audio Assist)</strong></h3>
+            <p><strong>ESPN  •  Bristol, CT • September 2017 - November 2017</strong></p>
+            <p>Programmed, facilitated and monitored communications between the control room and studio. Prepared microphones and placed them on high-profile talent for shows such as SportsCenter. Cleared to work independently on the shows First Take and Econet/Redes without any supervision.</p>
+						<br>
+            <h3><strong>Technical Director / Audio Operator</strong></h3>
+            <p><strong>Texas A&M Athletics  •  College Station, TX  •  February 2015 - July 2017</strong></p>
+            <p>Operated audio board as the A1 for broadcasts of exhibitions of multiple A&M sports to the SEC Network+, including games that went linear to ESPNU and the SEC Network, and sub-mixed in the redeveloped Kyle Field for A&M football games in the 2015 season for over 102,000 people. Operated video switcher as the technical director for broadcasts of exhibitions of multiple A&M sports to the SEC Network+, as well as to the video board in campus sporting venues. Produced graphics, videos, and features needed for A&M Athletics. </p>
         </div>
         <div id="resume-education">
             <h2>Education</h2>
             <h3><strong>Texas A&M University</strong></h3>
-            <p>Computer Science - Bachelor of Science</p>
-            <p>Minors in Art and Mathematics</p>
-            <p>Cum Laude</p>
+						<p><strong>College Station, TX  •  August 2012 - May 2017</strong></p>
+            <p>Bachelor of Science in Computer Science with minors in Art and Mathematics. <br>Graduated Cum Laude. </p>
         </div>
         <div id="resume-skills">
             <h2>Skills</h2>
