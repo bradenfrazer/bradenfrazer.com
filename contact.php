@@ -37,7 +37,7 @@
 						<label class="form-control-label mbr-fonts-style display-7" for="message-form1-2w">Message</label>
 						<textarea type="text" class="form-control" name="message" rows="7" data-form-field="Message" id="message-form1-2w"></textarea>
 					</div>
-
+					<div data-netlify-recaptcha="true"></div>
 					<span class="input-group-btn">
 						<div class="text-center">
 							<button href="" type="submit" class="btn btn-outline-primary btn-form display-4">Send</button>
