@@ -36,6 +36,7 @@ echo "Processing images..";
 
 #Copy omb folder
 cp -a ./omb/ "$DEST/omb"
+cp -a ./omb/ "$DEST/tic-tac-toe"
 echo "Processing additional folders..";
 
 echo "Process complete." ;
