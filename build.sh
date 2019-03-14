@@ -34,7 +34,7 @@ done
 cp -a ./images/ "$DEST/images"
 echo "Processing images..";
 
-#Copy omb folder
+#Copy omb and tic-tac-toe folders
 cp -a ./omb/ "$DEST/omb"
 cp -a ./tic-tac-toe/ "$DEST/tic-tac-toe"
 echo "Processing additional folders..";

@@ -187,6 +187,7 @@ a:hover {
   justify-content: center;
 }
 
+
 .jumbotron h1 {
   font-family: 'Caveat Brush', cursive;
 }
@@ -204,9 +205,14 @@ a:hover {
   }
 
   .jumbotron {
-    min-height: 50vh;
+    background-image: url("../images/design/hero-991px.jpg");
+    background-size: cover;
+    background-position: 50% 25%;
+    min-height: 400px;
     justify-content: flex-end;
   }
+
+
 
   .jumbotron>.overlay {
     content: '';

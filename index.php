@@ -31,7 +31,7 @@
 		<div class="row">
 			<div class="col-sm text-center">
 				<a href="/work#webprojects">
-					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="WebProjects-icon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
 						<g>
 							<path d="M62.924,94.729c-1.732-1.274-1.918-3.188-1.918-3.188l-0.65-4.155H39.642l-0.652,4.152c0,0-0.181,1.916-1.914,3.19   c-1.732,1.274-3.099,2.368-1.732,2.554c1.317,0.178,13.74,0.016,14.656,0c0.918,0.016,13.338,0.178,14.654,0   C66.02,97.098,64.652,96.006,62.924,94.729z" />
 							<g>
@@ -76,7 +76,7 @@
 			</div>
 			<div class="col-sm text-center">
 				<a href="/work#photography">
-					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Photography-icon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
 						<g>
 							<g>
 								<path d="M50,40c-8.285,0-15,6.718-15,15c0,8.285,6.715,15,15,15c8.283,0,15-6.715,15-15    C65,46.718,58.283,40,50,40z M90,25H78c-1.65,0-3.428-1.28-3.949-2.846l-3.102-9.309C70.426,11.28,68.65,10,67,10H33    c-1.65,0-3.428,1.28-3.949,2.846l-3.102,9.309C25.426,23.72,23.65,25,22,25H10C4.5,25,0,29.5,0,35v45c0,5.5,4.5,10,10,10h80    c5.5,0,10-4.5,10-10V35C100,29.5,95.5,25,90,25z M50,80c-13.807,0-25-11.193-25-25c0-13.806,11.193-25,25-25    c13.805,0,25,11.194,25,25C75,68.807,63.805,80,50,80z M86.5,41.993c-1.932,0-3.5-1.566-3.5-3.5c0-1.932,1.568-3.5,3.5-3.5    c1.934,0,3.5,1.568,3.5,3.5C90,40.427,88.433,41.993,86.5,41.993z" />
@@ -118,7 +118,7 @@
 			</div>
 			<div class="col-sm text-center">
 				<a href="/work#mediaproduction">
-					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 491.858 491.858" style="enable-background:new 0 0 491.858 491.858;" xml:space="preserve">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="VideoProducer-icon" x="0px" y="0px" viewBox="0 0 491.858 491.858" style="enable-background:new 0 0 491.858 491.858;" xml:space="preserve">
 						<g>
 							<g>
 								<g>
@@ -195,7 +195,7 @@
 			</div>
 			<div class="col-sm text-center">
 				<a href="/work#mediaproduction">
-					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 492.523 492.523" style="enable-background:new 0 0 492.523 492.523;" xml:space="preserve">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="AudioEngineer-icon" x="0px" y="0px" viewBox="0 0 492.523 492.523" style="enable-background:new 0 0 492.523 492.523;" xml:space="preserve">
 						<g>
 							<path d="M126.246,121.549h-30.85V82.932c0-13.84-11.205-25.055-25.037-25.055c-13.832,0-25.066,11.215-25.066,25.055v38.617H14.457   C6.469,121.549,0,128.037,0,136.029v58.738c0,7.992,6.469,14.48,14.457,14.48h30.836v200.344c0,13.84,11.234,25.055,25.066,25.055   c13.832,0,25.037-11.215,25.037-25.055V209.248h30.85c7.969,0,14.457-6.488,14.457-14.48v-58.738   C140.703,128.037,134.215,121.549,126.246,121.549z" />
 							<path d="M478.066,297.451H447.23V82.932c0-13.84-11.234-25.055-25.066-25.055s-25.037,11.215-25.037,25.055v214.52h-30.85   c-7.982,0-14.457,6.488-14.457,14.483v58.736c0,8,6.475,14.482,14.457,14.482h30.85v24.44c0,13.84,11.205,25.055,25.037,25.055   s25.066-11.215,25.066-25.055v-24.44h30.836c7.969,0,14.457-6.482,14.457-14.482v-58.736   C492.523,303.939,486.035,297.451,478.066,297.451z" />

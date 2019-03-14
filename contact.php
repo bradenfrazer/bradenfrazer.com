@@ -54,7 +54,7 @@
 	<div class="container contact-info">
 		<div class="row">
 			<div class="col-sm text-center">
-				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+				<svg version="1.1" id="Location-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 					<g>
 						<g>
 							<path d="M256,0C153.755,0,70.573,83.182,70.573,185.426c0,126.888,165.939,313.167,173.004,321.035
@@ -97,7 +97,7 @@
 				<p>Dallas, TX</p>
 			</div>
 			<div class="col-sm text-center">
-				<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="550.795px" height="550.795px" viewBox="0 0 550.795 550.795" style="enable-background:new 0 0 550.795 550.795;"
+				<svg version="1.1" id="Email-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="550.795px" height="550.795px" viewBox="0 0 550.795 550.795" style="enable-background:new 0 0 550.795 550.795;"
 				  xml:space="preserve">
 					<g>
 						<g>
@@ -156,7 +156,7 @@
 				<p style="white-space: nowrap;"><a href="mailto:bradenfrazer@gmail.com">bradenfrazer@gmail.com</a></p>
 			</div>
 			<div class="col-sm text-center">
-				<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="348.077px" height="348.077px" viewBox="0 0 348.077 348.077" style="enable-background:new 0 0 348.077 348.077;"
+				<svg version="1.1" id="Phone-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="348.077px" height="348.077px" viewBox="0 0 348.077 348.077" style="enable-background:new 0 0 348.077 348.077;"
 				  xml:space="preserve">
 					<g>
 						<g>
