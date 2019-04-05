@@ -62,6 +62,7 @@
                         <li>CSS</li>
                         <li>Javascript</li>
                         <li>Wordpress</li>
+												<li>Bootstrap</li>
                     </ul>
                 </div>
                 <div class="col">
@@ -70,14 +71,15 @@
                         <li>Photoshop</li>
                         <li>Illustator</li>
                         <li>InDesign</li>
+												<li>Photography</li>
                     </ul>
                 </div>
                 <div class="col">
                     <h3><strong>Other</strong></h3>
                     <ul>
-                        <li>Audio Engineering</li>
+                        <li>UI / UX</li>
+											  <li>Git</li>
                         <li>Video Editing</li>
-                        <li>Photography</li>
                     </ul>
                 </div>
             </div>

@@ -413,8 +413,7 @@ a:hover {
     display: grid;
     grid-template-areas:
     'name name contact'
-    'experience experience about'
-    'experience experience education'
+    'education education about'
     'experience experience skills'
     'experience experience courses';
   grid-gap: 3rem;
