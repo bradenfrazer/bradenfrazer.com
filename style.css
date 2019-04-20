@@ -10,7 +10,7 @@ maroon: #500000;
 body {
   background: #fff;
   font-size: 1.1rem;
-  line-height: 1.5rem;
+  line-height: 1.75rem;
   color: #232323;
   margin: 0;
   padding: 0;
@@ -268,10 +268,16 @@ a:hover {
   }
 }
 
+@media (min-width: 992px) {
+  .about {
+    padding: 0;
+  }
+}
+
 .about .headshot img {
-  max-width: 600px;
+  -max-width: 600px;
   width: 100%;
-  border-radius: 50%;
+  -border-radius: 50%;
 }
 
 /* Work
