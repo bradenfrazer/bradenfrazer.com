@@ -118,7 +118,7 @@
 <div class="content photography">
 	<div class="container text-center">
 		<h2 id="photography">Photography</h2>
-		<div class="container gallery-container">
+		<div class="container gallery-container p-0">
 			<div class="photography-gallery d-flex">
 				<a class="lightbox" href="../images/photography/ring.jpg">
 					<img src="../images/photography/thumbs/ring-t.jpg" alt="Ring" class="card-img-top">
