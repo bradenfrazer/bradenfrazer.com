@@ -323,14 +323,19 @@ a:hover {
     max-width: 75vw;
     max-height: 75vh;
   }
+
+  .modal-footer a {
+    margin: 0.5rem;
+  }
+
 }
 
 @media (max-width: 991px) {
-  .modal-footer {
+  .modal-footer, .modal-footer > div {
     flex-direction: column;
   }
 
-  .modal-footer a {
+  .modal-footer div a {
     margin-bottom: 1rem;
   }
 }

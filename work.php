@@ -95,12 +95,21 @@
 					</div>
 				</div>
 			</div>
-			<div class="modal-footer justify-content-center flex-wrap">
-				<a href="/omb/index.html" target="_blank" class="btn btn-outline-primary">Home Template</a>
-				<a href="/omb/about-the-brewery/our-brewery/" target="_blank" class="btn btn-outline-primary">About Template</a>
-				<a href="/omb/our-brews/" target="_blank" class="btn btn-outline-primary">Navigation Template</a>
-				<a href="/omb/our-brews/rudders-red-belgian-red-ale/" target="_blank" class="btn btn-outline-primary">Product Template</a>
-				<a href="/omb/contact-us/" target="_blank" class="btn btn-outline-primary">Contact Template</a>
+			<div class="modal-footer flex-column">
+				<div class="justify-content-center d-flex flex-wrap p-1">
+					<a href="/omb/index.html" target="_blank" class="btn btn-outline-primary">Home Template</a>
+					<a href="/omb/about-the-brewery/our-brewery/" target="_blank" class="btn btn-outline-primary">About Template</a>
+					<a href="/omb/our-brews/" target="_blank" class="btn btn-outline-primary">Navigation Template</a>
+					<a href="/omb/our-brews/rudders-red-belgian-red-ale/" target="_blank" class="btn btn-outline-primary">Product Template</a>
+					<a href="/omb/contact-us/" target="_blank" class="btn btn-outline-primary">Contact Template</a>
+				</div>
+				<div class="justify-content-center d-flex flex-wrap p-1">
+					<a href="../images/content/omb-wireframe1.png" target="_blank" class="btn btn-outline-primary">Wireframe 1</a>
+					<a href="../images/content/omb-wireframe1alt.png" target="_blank" class="btn btn-outline-primary">Wireframe 1 Alternate</a>
+					<a href="../images/content/omb-wireframe1-mobile.png" target="_blank" class="btn btn-outline-primary">Wireframe 1 Mobile</a>
+					<a href="../images/content/omb-wireframe2.png" target="_blank" class="btn btn-outline-primary">Wireframe 2</a>
+					<a href="../images/content/omb-wireframe2-mobile.png" target="_blank" class="btn btn-outline-primary">Wireframe 2 Mobile</a>
+				</div>
 			</div>
 		</div>
 	</div>
