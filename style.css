@@ -105,11 +105,6 @@ a:hover {
 /* Cards */
 .card {
   box-shadow: 5px 5px 15px 5px #ccc;
-  transition: 0.25s;
-}
-
-.card:hover {
-  box-shadow: 5px 5px 15px 5px #aaa;
 }
 
 .card-header {
@@ -136,6 +131,10 @@ a:hover {
 
 .navbar .socials {
   display: flex;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -196,7 +195,6 @@ a:hover {
   justify-content: center;
 }
 
-
 .jumbotron h1 {
   font-family: 'Caveat Brush', cursive;
 }
@@ -220,8 +218,6 @@ a:hover {
     min-height: 400px;
     justify-content: flex-end;
   }
-
-
 
   .jumbotron>.overlay {
     content: '';
@@ -326,10 +322,6 @@ a:hover {
   height: 300px;
 }
 
-.photography-gallery .lightbox img:hover {
-  filter: brightness(50%);
-  transition: 0.25s;
-}
 
 @media (min-width: 992px) {
   .modal-dialog {
