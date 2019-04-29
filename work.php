@@ -17,7 +17,7 @@
 	<div class="container text-center">
 		<h2 id="webprojects">Web Projects</h2>
 		<div class="row justify-content-center">
-			<div class="col-sm-12 col-md-6 col-lg-4">
+			<div class="col-sm-12 col-md-6 col-lg-6">
 				<div class="card h-100 text-center">
 					<div class="card-header">
 						<h3 class="card-title">Spokes Bike Shop</h3>
@@ -33,7 +33,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-12 col-md-6 col-lg-4">
+			<div class="col-sm-12 col-md-6 col-lg-6">
 				<div class="card h-100 text-center">
 					<div class="card-header">
 						<h3 class="card-title">Old Main Brewery</h3>
@@ -51,18 +51,33 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-12 col-md-6 col-lg-4">
+			<div class="col-sm-12 col-md-6 col-lg-6">
 				<div class="card h-100 text-center">
 					<div class="card-header">
 						<h3 class="card-title">Tic Tac Toe</h3>
 						<h4 class="card-text">ReactJS Game</h4>
 					</div>
-					<img class="card-img-top" src="../images/content/thumbs/tictactoe-thumb.png" alt="Old Main Brewery" style="width:100%;">
+					<img class="card-img-top" src="../images/content/thumbs/tictactoe-thumb.png" alt="Tic Tac Toe" style="width:100%;">
 					<div class="card-body">
 						<p class="card-text">Simple Tic Tac Toe game built in ReactJS based on the <a href="https://reactjs.org/tutorial/tutorial.html" target="_blank">ReactJS.org intro tutorial</a>, with a built-in move history and my own personal responsive design.</p>
 					</div>
 					<div class="card-footer">
 						<a href="/tic-tac-toe/index.html" target="_blank" class="btn btn-outline-primary">Play</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-6">
+				<div class="card h-100 text-center">
+					<div class="card-header">
+						<h3 class="card-title">HTML Bookmarklets</h3>
+						<h4 class="card-text">Web Development Tool</h4>
+					</div>
+					<img class="card-img-top" src="../images/content/thumbs/HTML-bookmarklets-thumb.png" alt="HTML Bookmarklets" style="width:100%;">
+					<div class="card-body">
+						<p class="card-text">Javascript Bookmarklets created to assist when writing HTML in the web browser. Usage: highlight text in a text field and then choose the bookmarklet with the corresponding tag you would like added on either side. Supports creation of Bootstrap 4 grid components, e.g. <em>col-md-6</em>, etc.</p>
+					</div>
+					<div class="card-footer">
+						<a href="../images/content/HTML-bookmarklets.html" target="_blank" class="btn btn-outline-primary">Chrome Import File</a>
 					</div>
 				</div>
 			</div>
