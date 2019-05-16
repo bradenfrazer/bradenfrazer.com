@@ -25,11 +25,40 @@
 					</div>
 					<img class="card-img-top" src="../images/content/thumbs/spokes-thumb.png" alt="Spokes Bike Shop" style="width:100%;">
 					<div class="card-body">
-						<p class="card-text">Demo site made to practice WordPress theme design and development. WordPress theme created on a heavily modified free version of the <a href="https://bootstrap-wp.com/">Bootstrap 4 WordPress Theme</a> (built on Bootstrap
-							4, as the name implies) with Contact Form 7 the only WordPress plugin used. Built in a local environment but currently hosting on 000webhost for showcase purposes.</p>
+						<p class="card-text">Demo site made to practice WordPress theme design and development. WordPress theme created on a heavily modified free version of the <a href="https://bootstrap-wp.com/">Bootstrap 4 WordPress Theme</a>. Built in a local environment but currently hosting on 000webhost for showcase purposes.</p>
 					</div>
 					<div class="card-footer">
 						<a href="https://spokes-bike-shop.000webhostapp.com/" target="_blank" class="btn btn-outline-primary">Visit Site</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="card h-100 text-center">
+					<div class="card-header">
+						<h3 class="card-title">Landing Page</h3>
+						<h4 class="card-text">Mock Webpage Design</h4>
+					</div>
+					<img class="card-img-top" src="../images/content/thumbs/lp1-thumb.png" alt="Landing Page" style="width:100%;">
+					<div class="card-body">
+						<p class="card-text">Mock landing page design for a fictional start-up. Built off of Bootstrap 4.</p>
+					</div>
+					<div class="card-footer">
+						<a href="/lp1/" target="_blank" class="btn btn-outline-primary">View</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="card h-100 text-center">
+					<div class="card-header">
+						<h3 class="card-title">Tic Tac Toe</h3>
+						<h4 class="card-text">ReactJS Game</h4>
+					</div>
+					<img class="card-img-top" src="../images/content/thumbs/tictactoe-thumb.png" alt="Tic Tac Toe" style="width:100%;">
+					<div class="card-body">
+						<p class="card-text">Simple Tic Tac Toe game built in ReactJS based on the <a href="https://reactjs.org/tutorial/tutorial.html" target="_blank">ReactJS.org intro tutorial</a>, with a built-in move history and my own personal responsive design.</p>
+					</div>
+					<div class="card-footer">
+						<a href="/tic-tac-toe/index.html" target="_blank" class="btn btn-outline-primary">Play</a>
 					</div>
 				</div>
 			</div>
@@ -63,36 +92,6 @@
 					</div>
 					<div class="card-footer">
 						<a href="../images/content/HTML-bookmarklets.html" target="_blank" class="btn btn-outline-primary">Chrome Import File</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<div class="card h-100 text-center">
-					<div class="card-header">
-						<h3 class="card-title">Landing Page</h3>
-						<h4 class="card-text">Mock Webpage Design</h4>
-					</div>
-					<img class="card-img-top" src="../images/content/thumbs/lp1-thumb.png" alt="Landing Page" style="width:100%;">
-					<div class="card-body">
-						<p class="card-text">Mock landing page design for a fictional start-up. Built off of Bootstrap 4.</p>
-					</div>
-					<div class="card-footer">
-						<a href="/lp1/" target="_blank" class="btn btn-outline-primary">View</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<div class="card h-100 text-center">
-					<div class="card-header">
-						<h3 class="card-title">Tic Tac Toe</h3>
-						<h4 class="card-text">ReactJS Game</h4>
-					</div>
-					<img class="card-img-top" src="../images/content/thumbs/tictactoe-thumb.png" alt="Tic Tac Toe" style="width:100%;">
-					<div class="card-body">
-						<p class="card-text">Simple Tic Tac Toe game built in ReactJS based on the <a href="https://reactjs.org/tutorial/tutorial.html" target="_blank">ReactJS.org intro tutorial</a>, with a built-in move history and my own personal responsive design.</p>
-					</div>
-					<div class="card-footer">
-						<a href="/tic-tac-toe/index.html" target="_blank" class="btn btn-outline-primary">Play</a>
 					</div>
 				</div>
 			</div>
