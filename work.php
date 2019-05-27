@@ -15,7 +15,7 @@
 
 <div class="content bg-light web-projects">
 	<div class="container text-center">
-		<h2 id="webprojects">Web Projects</h2>
+		<h2 id="webprojects">Personal Web Projects</h2>
 		<div class="row justify-content-center">
 			<div class="col-sm-12 col-md-6 col-lg-4">
 				<div class="card h-100 text-center">
@@ -24,11 +24,10 @@
 						<h4 class="card-text">Wordpress Demo Site</h4>
 					</div>
 					<img class="card-img-top" src="../images/content/thumbs/spokes-thumb.png" alt="Spokes Bike Shop" style="width:100%;">
-					<div class="card-body">
-						<p class="card-text">Demo site made to practice WordPress theme design and development. WordPress theme created on a heavily modified free version of the <a href="https://bootstrap-wp.com/">Bootstrap 4 WordPress Theme</a>. Built in a local environment but currently hosting on 000webhost for showcase purposes.</p>
-					</div>
 					<div class="card-footer">
-						<a href="https://spokes-bike-shop.000webhostapp.com/" target="_blank" class="btn btn-outline-primary">Visit Site</a>
+						<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#spokesModal">
+							Learn More
+						</button>
 					</div>
 				</div>
 			</div>
@@ -39,13 +38,12 @@
 						<h4 class="card-text">Mock Webpage Design</h4>
 					</div>
 					<img class="card-img-top" src="../images/content/thumbs/lp1-thumb.png" alt="Landing Page" style="width:100%;">
-					<div class="card-body">
-						<p class="card-text">Mock landing page design for a fictional start-up. Built off of Bootstrap 4.</p>
-					</div>
 					<div class="card-footer">
-						<a href="/lp1/" target="_blank" class="btn btn-outline-primary">View</a>
-					</div>
-				</div>
+						<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#lpModal">
+							Learn More
+						</button>
+				  </div>
+			  </div>
 			</div>
 			<div class="col-sm-12 col-md-6 col-lg-4">
 				<div class="card h-100 text-center">
@@ -54,11 +52,10 @@
 						<h4 class="card-text">ReactJS Game</h4>
 					</div>
 					<img class="card-img-top" src="../images/content/thumbs/tictactoe-thumb.png" alt="Tic Tac Toe" style="width:100%;">
-					<div class="card-body">
-						<p class="card-text">Simple Tic Tac Toe game built in ReactJS based on the <a href="https://reactjs.org/tutorial/tutorial.html" target="_blank">ReactJS.org intro tutorial</a>, with a built-in move history and my own personal responsive design.</p>
-					</div>
 					<div class="card-footer">
-						<a href="/tic-tac-toe/index.html" target="_blank" class="btn btn-outline-primary">Play</a>
+						<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#tttModal">
+							Learn More
+						</button>
 					</div>
 				</div>
 			</div>
@@ -69,10 +66,6 @@
 						<h4 class="card-text">Website Freelance Project</h4>
 					</div>
 					<img class="card-img-top" src="../images/content/thumbs/omb-home-thumb.png" alt="Old Main Brewery" style="width:100%;">
-					<div class="card-body">
-						<p class="card-text">Freelance project for an up-and-coming College Station, TX brewery. I designed 5 different webpage templates as mockups and then implemented the designs in HTML5, CSS3, and Javascript. You can find each of the templates
-							hosted here on my site, while the site itself prepares to launch.</p>
-					</div>
 					<div class="card-footer">
 						<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#ombModal">
 							Learn More
@@ -87,18 +80,133 @@
 						<h4 class="card-text">Web Development Tool</h4>
 					</div>
 					<img class="card-img-top" src="../images/content/thumbs/HTML-bookmarklets-thumb.png" alt="HTML Bookmarklets" style="width:100%;">
-					<div class="card-body">
-						<p class="card-text">Javascript Bookmarklets created to assist when writing HTML in the web browser. Usage: highlight text in a text field and then choose the bookmarklet with the corresponding tag you would like to use. Supports creation of Bootstrap 4 grid components, e.g. <em>col-md-6</em>, etc.</p>
-					</div>
 					<div class="card-footer">
-						<a href="../images/content/HTML-bookmarklets.html" target="_blank" class="btn btn-outline-primary">Chrome Import File</a>
+						<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#bookmarkletsModal">
+							Learn More
+						</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div class="container text-center">
+		<h2>Websites I Maintain</h2>
+		<div class="row justify-content-center">
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="card h-100 text-center">
+					<div class="card-header">
+						<h3 class="card-title">Best Home Services</h3>
+					</div>
+					<img class="card-img-top" src="../images/content/thumbs/besthome-thumb.png" alt="Best Home Services" style="width:100%;">
+					<div class="card-footer">
+						<a href="https://www.getbest.com/" target="_blank" class="btn btn-outline-primary">Visit Site</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-4">
+					<div class="card h-100 text-center">
+						<div class="card-header">
+							<h3 class="card-title">Principal Charity Classic</h3>
+						</div>
+						<img class="card-img-top" src="../images/content/thumbs/pcc-thumb.png" alt="Principal Charity Classic" style="width:100%;">
+						<div class="card-footer">
+							<a href="https://www.principalcharityclassic.com/" target="_blank" class="btn btn-outline-primary">Visit Site</a>
+						</div>
+					</div>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-4">
+					<div class="card h-100 text-center">
+						<div class="card-header">
+							<h3 class="card-title">Weil Tennis Academy</h3>
+						</div>
+						<img class="card-img-top" src="../images/content/thumbs/weiltennis-thumb.png" alt="Weil Tennis Academy" style="width:100%;">
+						<div class="card-footer">
+							<a href="https://www.weiltennis.com/" target="_blank" class="btn btn-outline-primary">Visit Site</a>
+						</div>
+					</div>
+			</div>
+			</div>
+			<h4>and 3,500+ others!</h4>
+		</div>
+	</div>
 </div>
 
+<!-- Spokes Bike Shop Modal -->
+<div class="modal fade" id="spokesModal" tabindex="-1" role="dialog" aria-labelledby="spokesModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="spokesModalLabel">Spokes Bike Shop</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<img src="../images/content/thumbs/spokes-thumb.png" alt="Spokes Bike Shop" style="width:100%;">
+						</div>
+						<div class="col-lg-6">
+							<p>Demo site made to practice WordPress theme design and development. WordPress theme created on a heavily modified free version of the <a href="https://bootstrap-wp.com/">Bootstrap 4 WordPress Theme</a>. Built in a local environment but currently hosting on 000webhost for showcase purposes.</p>
+
+							<p><strong>Stack includes:</strong></p>
+							<ul>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Bootstrap 4</li>
+								<li>WordPress</li>
+								<ul>
+									<li><a href="https://bootstrap-wp.com/">Bootstrap 4 WordPress Theme</a></li>
+									<li>Contact Form 7</li>
+								</ul>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer flex-column">
+				<a href="https://spokes-bike-shop.000webhostapp.com/" target="_blank" class="btn btn-outline-primary">Visit Site</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Landing Page Modal -->
+<div class="modal fade" id="lpModal" tabindex="-1" role="dialog" aria-labelledby="lpModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="lpModalLabel">Landing Page</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<img src="../images/content/thumbs/lp1-thumb.png" alt="Landing Page" style="width:100%;">
+						</div>
+						<div class="col-lg-6">
+							<p>Mock landing page design for a fictional start-up.</p>
+
+							<p><strong>Stack includes:</strong></p>
+							<ul>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Bootstrap 4</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer flex-column">
+				<a href="/lp1/" target="_blank" class="btn btn-outline-primary">View</a>
+			</div>
+		</div>
+	</div>
+</div>
 
 <!-- OMB Modal -->
 <div class="modal fade" id="ombModal" tabindex="-1" role="dialog" aria-labelledby="ombModalLabel" aria-hidden="true">
@@ -113,13 +221,20 @@
 			<div class="modal-body">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-4">
+						<div class="col-lg-6">
 							<img src="../images/content/thumbs/omb-home-thumb.png" alt="Old Main Brewery" style="width:100%;">
 						</div>
-						<div class="col-lg-8">
+						<div class="col-lg-6">
 							<p>Freelance project for an up-and-coming College Station, TX brewery. I designed 5 different webpage templates as mockups and then implemented the designs in HTML5, CSS3, and Javascript. Working with one of the co-owners as a client, I went
 								through an iterative process including first producing different mockups in Photoshop and then writing HTML/CSS/JavaScript for the concepts that the client liked best. The templates include animations and responsive elements already
 								optimized for desktop, tablet, and mobile phone viewing of the website. You can find each of the templates hosted here on my site, while the site itself prepares to launch later.</p>
+
+								<p><strong>Stack includes:</strong></p>
+								<ul>
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>Javascript</li>
+								</ul>
 						</div>
 					</div>
 				</div>
@@ -139,6 +254,90 @@
 					<a href="../images/content/omb-wireframe2.png" target="_blank" class="btn btn-outline-primary">Wireframe 2</a>
 					<a href="../images/content/omb-wireframe2-mobile.png" target="_blank" class="btn btn-outline-primary">Wireframe 2 Mobile</a>
 				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Tic Tac Toe Modal -->
+<div class="modal fade" id="tttModal" tabindex="-1" role="dialog" aria-labelledby="tttModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="tttModalLabel">Tic Tac Toe</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<img src="../images/content/thumbs/tictactoe-thumb.png" alt="Tic Tac Toe" style="width:100%;">
+						</div>
+						<div class="col-lg-6">
+							<p>Simple Tic Tac Toe game built in ReactJS based on the <a href="https://reactjs.org/tutorial/tutorial.html" target="_blank">ReactJS.org intro tutorial</a>, with a built-in move history and my own personal responsive design.</p>
+
+							<p><strong>Stack includes:</strong></p>
+							<ul>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>React.JS</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer flex-column">
+				<a href="/tic-tac-toe/index.html" target="_blank" class="btn btn-outline-primary">Play</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- HTML Bookmarklets Modal -->
+<div class="modal fade" id="bookmarkletsModal" tabindex="-1" role="dialog" aria-labelledby="bookmarkletsModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="bookmarkletsModalLabel">Landing Page</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<img src="../images/content/thumbs/HTML-bookmarklets-thumb.png" alt="HTML Bookmarklets" style="width:100%;">
+						</div>
+						<div class="col-lg-6">
+							<p>Javascript Bookmarklets created to assist when writing HTML in the web browser.</p>
+
+							<p>Usage: highlight text in a text field and then choose the bookmarklet with the corresponding function you would like to use. Supports creation of Bootstrap 4 grid components, e.g. <em>col-md-6</em>, etc.</p>
+
+							<p><strong>Features include:</strong></p>
+							<ul>
+								<li>Heading tags - h1, h2, h3, etc.</li>
+								<li>Formatting tags - strong, em</li>
+								<li>List maker - formats selected list of text broken up by line breaks into ul or ol with li elements</li>
+								<li>Image tag with prompt for URL and alt text</li>
+								<li>Anchor tags with prompt for URL and options for new window / tab</li>
+								<li>Responsive YouTube / Vimeo videos with prompt for video ID</li>
+								<li>Bootstrap 4 grid components</li>
+									<ul>
+										<li>Layout Maker - inserts indented divs with <em>container</em> and <em>row</em> classes around selection</li>
+										<li>New Row Break - inserts div with class <em>w-100</em> to force new row</li>
+										<li>col-sm-#, col-mg-#, col-lg-#</li>
+									</ul>
+								<li><em>...and more!</em></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer flex-column">
+				<a href="../images/content/HTML-bookmarklets.html" target="_blank" class="btn btn-outline-primary">Chrome Import File</a>
 			</div>
 		</div>
 	</div>
@@ -281,7 +480,7 @@
 						<h3 class="card-title">Night Owls</h3>
 						<h4 class="card-text">Branding Project</h4>
 					</div>
-					<img class="card-img-top" src="../images/content/thumbs/no-thumb.jpg" alt="Night Owls" style="width:100%;">
+					<img class="card-img-top" src="../images/content/thumbs/no-thumb.png" alt="Night Owls" style="width:100%;">
 					<div class="card-body">
 						<p class="card-text">Night Owls is a fictional card game that I designed in a Graphic Design class that I took. As part of the project, I designed the vectorized logo, business cards and letter head for the company, and packaging.</p>
 					</div>
@@ -296,7 +495,7 @@
 				<div class="card h-100 text-center">
 					<div class="card-header">
 						<h3 class="card-title">Archer Brochure</h3>
-						<h4 class="card-text">Font Information Pamphlet</h4>
+						<h4 class="card-text">Font Info Pamphlet</h4>
 					</div>
 					<img class="card-img-top" src="../images/content/thumbs/archer-thumb.png" alt="Archer brochure" style="width:100%;">
 					<div class="card-body">

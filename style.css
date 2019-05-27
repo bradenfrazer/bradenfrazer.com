@@ -108,6 +108,7 @@ a:hover {
 }
 
 .card-header {
+	padding: .75rem .5rem;
   background-color: #500000;
   color: #fff;
 }
@@ -115,6 +116,7 @@ a:hover {
 .card-img-top {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+	width: 100%;
 }
 
 /* Header
@@ -289,6 +291,13 @@ a:hover {
 --------------------------------------------- */
 .web-projects .row .col-sm-12.col-md-6, .photography .row .col-sm-12.col-md-6.col-lg-4, .graphic-design .row .col-sm-12.col-md-6.col-lg-4, .media-production .row .col-sm-12.col-md-6.col-lg-4, .modal .row .col-sm-12.col-md-6.col-lg-4 {
   margin-bottom: 2rem;
+}
+
+.web-projects .card-footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
 }
 
 .photography-gallery {
