@@ -34,10 +34,11 @@ done
 cp -a ./images/ "$DEST/images"
 echo "Processing images..";
 
-#Copy omb, tic-tac-toe, lp1 folders
+#Copy omb, tic-tac-toe, lp1, weathrr folders
 cp -a ./omb/ "$DEST/omb"
 cp -a ./tic-tac-toe/ "$DEST/tic-tac-toe"
 cp -a ./lp1/ "$DEST/lp1"
+cp -a ./weathrr/ "$DEST/weathrr"
 echo "Processing additional folders..";
 
 echo "Process complete." ;

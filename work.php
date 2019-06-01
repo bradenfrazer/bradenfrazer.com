@@ -48,6 +48,20 @@
 			<div class="col-sm-12 col-md-6 col-lg-4">
 				<div class="card h-100 text-center">
 					<div class="card-header">
+						<h3 class="card-title">Weathrr</h3>
+						<h4 class="card-text">ReactJS Weather App</h4>
+					</div>
+					<img class="card-img-top" src="../images/content/thumbs/weathrr-thumb.png" alt="Weathrr" style="width:100%;">
+					<div class="card-footer">
+						<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#weathrrModal">
+							Learn More
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="card h-100 text-center">
+					<div class="card-header">
 						<h3 class="card-title">Tic Tac Toe</h3>
 						<h4 class="card-text">ReactJS Game</h4>
 					</div>
@@ -254,6 +268,44 @@
 					<a href="../images/content/omb-wireframe2.png" target="_blank" class="btn btn-outline-primary">Wireframe 2</a>
 					<a href="../images/content/omb-wireframe2-mobile.png" target="_blank" class="btn btn-outline-primary">Wireframe 2 Mobile</a>
 				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Weathrr Modal -->
+<div class="modal fade" id="weathrrModal" tabindex="-1" role="dialog" aria-labelledby="weathrrModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="weathrrModalLabel">Weathrr</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<img src="../images/content/thumbs/weathrr-thumb.png" alt="Weathrr" style="width:100%;">
+						</div>
+						<div class="col-lg-6">
+							<p>Weather conditions app built in ReactJS. A city name and country name are needed for input, and then the location name, current temperature, humidity, and conditions are pulled from OpenWeatherMap. More features to come soon!</p>
+
+							<p><strong>Stack includes:</strong></p>
+							<ul>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Bootstrap 4</li>
+								<li>React.JS</li>
+								<li><a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap API</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer flex-column">
+				<a href="/weathrr/index.html" target="_blank" class="btn btn-outline-primary">View</a>
 			</div>
 		</div>
 	</div>
