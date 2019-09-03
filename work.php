@@ -241,7 +241,7 @@
 						<div class="col-lg-6">
 							<p>Freelance project for an up-and-coming College Station, TX brewery. I designed 5 different webpage templates as mockups and then implemented the designs in HTML5, CSS3, and Javascript. Working with one of the co-owners as a client, I went
 								through an iterative process including first producing different mockups in Photoshop and then writing HTML/CSS/JavaScript for the concepts that the client liked best. The templates include animations and responsive elements already
-								optimized for desktop, tablet, and mobile phone viewing of the website. You can find each of the templates hosted here on my site, while the site itself prepares to launch later.</p>
+								optimized for desktop, tablet, and mobile phone viewing of the website. You can find each of the templates hosted here on my site, while the site itself lives at <a href="http://oldmainbrewing.com">oldmainbrewing.com</a></p>
 
 								<p><strong>Stack includes:</strong></p>
 								<ul>
@@ -254,6 +254,9 @@
 				</div>
 			</div>
 			<div class="modal-footer flex-column">
+				<div class="justify-content-center d-flex flex-wrap p-1">
+					<a href="http://oldmainbrewing.com" target="_blank" class="btn btn-primary">oldmainbrewing.com</a>
+				</div>
 				<div class="justify-content-center d-flex flex-wrap p-1">
 					<a href="/omb/index.html" target="_blank" class="btn btn-outline-primary">Home Template</a>
 					<a href="/omb/about-the-brewery/our-brewery/" target="_blank" class="btn btn-outline-primary">About Template</a>

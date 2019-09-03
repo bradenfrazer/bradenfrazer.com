@@ -92,6 +92,16 @@ a:hover {
   text-transform: uppercase;
 }
 
+.btn-primary {
+  background-color: #500000;
+  border-color: #500000;
+}
+
+.btn-primary:hover {
+  background-color: #232323;
+  border-color: #232323;
+}
+
 .btn-outline-primary {
   color: #500000;
   border-color: #500000;
@@ -104,7 +114,7 @@ a:hover {
 
 /* Cards */
 .card {
-  box-shadow: 5px 5px 15px 5px #ccc;
+  box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
 }
 
 .card-header {
@@ -323,7 +333,7 @@ a:hover {
 }
 
 .photography-gallery {
-  box-shadow: 5px 5px 15px 5px #ccc;
+  box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
 }
 
 .photography-gallery .lightbox img {
