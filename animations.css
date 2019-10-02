@@ -10,7 +10,6 @@
 
 .card:hover {
   box-shadow: 0 5px 10px rgba(154,160,185,.5), 0 15px 40px rgba(166,173,201,.5);
-  transition: 0.25s ease-in-out;
 }
 
 /* animations from Hover.css - https://ianlunn.github.io/Hover/ */
@@ -200,7 +199,10 @@
 /* Work
 --------------------------------------------- */
 
+.photography-gallery .lightbox img {
+	  transition: 0.25s ease-in-out;
+}
+
 .photography-gallery .lightbox img:hover {
   filter: brightness(50%);
-  transition: 0.25s;
 }
