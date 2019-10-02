@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" type="image/png" href="/images/design/favicon-64x64.png" />
 
 	<!-- Stylesheet -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700|Caveat+Brush" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|IBM+Plex+Sans:400,700|Caveat+Brush" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css" rel="stylesheet" text="text/css" media="screen">
 	<link href="/style.css" rel="stylesheet" text="text/css" media="screen"> <!--main styles-->
