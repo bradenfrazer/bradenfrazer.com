@@ -24,7 +24,7 @@
     <div class="container text-center">
         <h3>Resume</h3>
         <p></p>
-        <a href="../resume.php" target="_blank" class="btn btn-outline-primary">Online</a>
+        <a href="../resume/index.html" target="_blank" class="btn btn-outline-primary">Online</a>
         <a href="../images/content/resume.pdf" target="_blank" class="btn btn-outline-primary">PDF</a>
     </div>
 </div>
