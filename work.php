@@ -180,7 +180,7 @@
 				</div>
 			</div>
 			<div class="modal-footer flex-column">
-				<a href="https://spokes-bike-shop.000webhostapp.com/" target="_blank" class="btn btn-outline-primary">Visit Site</a>
+				<a href="https://spokes.000webhostapp.com/" target="_blank" class="btn btn-outline-primary">Visit Site</a>
 			</div>
 		</div>
 	</div>
