@@ -1,7 +1,7 @@
 <footer>
 	<div class="content">
 		<div class="container text-center">
-			<p>© 2016-2019 Braden Frazer. All rights reserved.</p>
+			<p>© 2016-2020 Braden Frazer. All rights reserved.</p>
 		</div>
 	</div>
 </footer>
