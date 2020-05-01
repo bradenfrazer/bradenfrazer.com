@@ -26,7 +26,38 @@
         <p></p>
         <a href="../resume/index.html" target="_blank" class="btn btn-outline-primary">Online</a>
         <a href="../images/content/resume.pdf" target="_blank" class="btn btn-outline-primary">PDF</a>
-    </div>
+				<p></p>
+				<div class="timeline">
+					<div class="timeline-dot-wrapper">
+						<input type="radio" name="timeline-dot" data-description="S2017">
+						<div class="dot-info" data-description="S2017">
+							<span class="year">Spring 2017</span>
+							<span class="label">Graduated college</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="F2017">
+						<div class="dot-info" data-description="F2017">
+							<span class="year">Fall 2017</span>
+							<span class="label">ESPN Internship</span>
+						</div>
+										<input type="radio" name="timeline-dot" data-description="S2018">
+										<div class="dot-info" data-description="S2018">
+											<span class="year">Spring 2018</span>
+											<span class="label">Website Services Consultant</span>
+										</div>
+										<input type="radio" name="timeline-dot" data-description="M2019">
+										<div class="dot-info" data-description="M2019">
+											<span class="year">Summer 2019</span>
+											<span class="label">Web Developer</span>
+										</div>
+						<div id="timeline-descriptions-wrapper">
+							<p data-description="S2017">Graduated from Texas A&M University with a Bachelor's in Computer Science.</p>
+							<p data-description="F2017">Interned at ESPN's headquarters in Bristol, CT as a Production Operations Audio Assistant.</p>
+							<p data-description="S2018">Started Website Services Consultant position at Gannett, supporting over 3,000+ launched client websites.</p>
+							<p data-description="M2019">Promoted to Web Developer at Gannett - building, styling, editing, and launching Wordpress sites in a fast-paced environment.</p>
+						</div>
+					</div>
+				</div>
+			</div>
 </div>
 
 <?php
