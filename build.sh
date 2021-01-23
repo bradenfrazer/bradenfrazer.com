@@ -30,8 +30,8 @@ do
     echo "Processing $f file..";
 done
 
-#Copy all images
-cp -a ./images/ "$DEST/images"
+#Copy all uploads
+cp -a ./uploads/ "$DEST/uploads"
 echo "Processing images..";
 
 #Copy omb, tic-tac-toe, lp1, weathrr, resume folders

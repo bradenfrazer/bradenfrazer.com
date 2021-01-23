@@ -7,6 +7,11 @@ maroon: #500000;
 */
 /* Global
 --------------------------------------------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #fff;
   font-size: 1.1rem;
@@ -41,18 +46,37 @@ h6,
   font-family: 'Roboto Slab', sans-serif;
 }
 
-.page-title h1:after {
-  background: none repeat scroll 0 0 #FFF;
-  bottom: -10px;
+h2 { position: relative; margin-bottom: 2rem; }
+
+h2:after {
+  background: none repeat scroll 0 0 #500000;
   content: "";
+	bottom: -1rem;
   display: block;
-  height: 0.2rem;
-  position: relative;
+  height: 3px;
+  position: absolute;
   width: 80px;
+}
+
+.text-center h2:after {
+	left: 50%;
+	transform: translate(-50%);
 }
 
 .bg-color, .bg-dark {
   color: #f4f4f4;
+}
+
+.bg-color h2:after, .bg-dark h2:after {
+  background: none repeat scroll 0 0 #fff;
+}
+
+@media (max-width: 1199px) {
+	.display-4 { font-size: 4.5vw; }
+}
+
+@media (max-width: 767px) {
+	.display-4 { font-size: 32px; }
 }
 
 /* Hyperlinks */
@@ -121,12 +145,25 @@ a:hover {
 	padding: .75rem .5rem;
   background-color: #500000;
   color: #fff;
+	flex-grow: 1;
+}
+
+.card-title:only-child {
+margin-bottom: 0rem;
 }
 
 .card-img-top {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 	width: 100%;
+}
+
+.card-footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 0;
+	flex-shrink: 1;
 }
 
 /* Header
@@ -199,7 +236,7 @@ a:hover {
 --------------------------------------------- */
 /* Hero */
 .jumbotron {
-  background-image: url("../images/design/hero.jpg");
+  background-image: url("../uploads/design/hero.jpg");
   background-size: cover;
   background-position: 50% 25%;
   min-height: 65vh;
@@ -224,7 +261,7 @@ a:hover {
   }
 
   .jumbotron {
-    background-image: url("../images/design/hero-991px.jpg");
+    background-image: url("../uploads/design/hero-991px.jpg");
     background-size: cover;
     background-position: 50% 25%;
     min-height: 400px;
@@ -248,7 +285,7 @@ a:hover {
   }
 }
 
-/* Services */
+/* Services
 .services svg {
   width: 100%;
   max-width: 125px;
@@ -270,7 +307,7 @@ a:hover {
 
 .services .col-sm a:hover {
   text-decoration: none;
-}
+}*/
 
 /* About
 --------------------------------------------- */
@@ -292,9 +329,7 @@ a:hover {
 }
 
 .about .headshot img {
-  -max-width: 600px;
   width: 100%;
-  -border-radius: 50%;
 }
 
 .timeline {
@@ -529,14 +564,7 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.web-projects .card-footer {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-}
-
-.photography-gallery {
+/*.photography-gallery {
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -565,7 +593,7 @@ a:hover {
 .photography-gallery .lightbox img {
   object-fit: cover;
   height: 300px;
-}
+}*/
 
 
 @media (min-width: 992px) {
@@ -621,122 +649,3 @@ a:hover {
 .g-recaptcha > div {
   margin: 0 auto;
 }
-
-/* Resume
----------------------------------------------
-
-#resume-name {
-    grid-area: name;
-}
-
-#resume-contact {
-    grid-area: contact;
-}
-
-#resume-about {
-    grid-area: about;
-}
-
-#resume-experience {
-    grid-area: experience;
-}
-
-#resume-education {
-    grid-area: education;
-}
-
-#resume-skills {
-   grid-area: skills;
-}
-
-#skills-flex, #courses-flex {
-    display: flex;
-}
-
-#skills-flex .col {
-    flex: 0 0 33%;
-}
-
-#courses-flex .col {
-    flex: 0 0 48%;
-}
-
-#skills-flex ul, #courses-flex ul{
-    list-style-type: circle;
-    padding-left: 2rem;
-}
-
-#resume-courses {
-    grid-area: courses;
-}
-
-#resume-grid {
-    display: grid;
-    grid-template-areas:
-    'name name contact'
-    'education education about'
-    'experience experience skills'
-    'experience experience courses';
-  grid-gap: 3rem;
-  padding: 3rem;
-    padding-top: 5rem;
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
-#resume-grid h1, #resume-grid h2, #resume-grid h3, #resume-grid p, #resume-grid li {
-    border: none;
-    color: #000;
-    font-family: 'Roboto Slab', serif;
-}
-
-#resume-grid h1 {
-    text-align: left;
-    font-weight: 800;
-    text-transform: inherit;
-    font-size: 2.5rem;
-}
-
-#resume-grid h2 {
-    text-align: left;
-    font-weight: 600;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    border: 2px solid #000;
-    padding: 0.5rem;
-    display: inline-block;
-}
-
-#resume-grid h3 {
-    text-align: left;
-    font-weight: 400;
-    font-size: 1.25rem;
-}
-
-#resume-grid p, #resume-grid li {
-    text-align: left;
-    font-weight: 400;
-    font-size: 1rem;
-}
-
-@media (max-width: 991px) {
-#resume-grid {
-    grid-template-areas:
-    'name'
-    'contact'
-    'about'
-    'education'
-    'experience'
-    'skills'
-    'courses';
-    padding: 1rem;
-    padding-top: 3rem;
-}
-
-#resume-grid p, #resume-grid li {
-  margin: 0;
-}
-}
-
-}
-*/
