@@ -125,6 +125,20 @@
 			<div class="col-sm-12 col-md-6 col-lg-4">
 				<div class="card h-100 text-center">
 					<div class="card-header">
+						<h3 class="card-title">Jokes App</h3>
+						<h4 class="card-text">JavaScript API Demo</h4>
+					</div>
+					<img class="card-img-top" src="../uploads/content/thumbs/joke-app-thumb.jpg" alt="Jokes App" style="width:100%;">
+					<div class="card-footer">
+						<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#jokesModal">
+							Learn More
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="card h-100 text-center">
+					<div class="card-header">
 						<h3 class="card-title">Landing Page</h3>
 						<h4 class="card-text">Mock Webpage Design</h4>
 					</div>
@@ -293,7 +307,7 @@
 				</div>
 			</div>
 			<div class="modal-footer flex-column">
-				<a href="/lp1/" target="_blank" class="btn btn-outline-primary">View</a>
+				<a href="/projects/lp1/" target="_blank" class="btn btn-outline-primary">View</a>
 			</div>
 		</div>
 	</div>
@@ -316,8 +330,8 @@
 							<img src="../uploads/content/thumbs/omb-home-thumb.png" alt="Old Main Brewery" style="width:100%;">
 						</div>
 						<div class="col-lg-6">
-							<p>Freelance project for an up-and-coming College Station, TX brewery. I designed 5 different webpage templates as mockups and then implemented the designs in HTML5, CSS3, and Javascript. Working with one of the co-owners as a client, I went
-								through an iterative process including first producing different mockups in Photoshop and then writing HTML/CSS/JavaScript for the concepts that the client liked best. The templates include animations and responsive elements already
+							<p>Freelance project for a College Station, TX based brewery. I designed 5 different webpage templates as mockups and then implemented the designs in HTML5, CSS3, and Javascript. Working with one of the co-owners as a client, I went
+								through an iterative process, including first producing different mockups in Photoshop, and then writing HTML/CSS/JavaScript for the concepts that the client liked best. The templates include animations and responsive elements already
 								optimized for desktop, tablet, and mobile phone viewing of the website. You can find each of the templates hosted here on my site, while the site itself lives at <a href="http://oldmainbrewing.com">oldmainbrewing.com</a></p>
 
 								<p><strong>Stack includes:</strong></p>
@@ -335,11 +349,11 @@
 					<a href="http://oldmainbrewing.com" target="_blank" class="btn btn-primary">oldmainbrewing.com</a>
 				</div>
 				<div class="justify-content-center d-flex flex-wrap p-1">
-					<a href="/omb/index.html" target="_blank" class="btn btn-outline-primary">Home Template</a>
-					<a href="/omb/about-the-brewery/our-brewery/" target="_blank" class="btn btn-outline-primary">About Template</a>
-					<a href="/omb/our-brews/" target="_blank" class="btn btn-outline-primary">Navigation Template</a>
-					<a href="/omb/our-brews/rudders-red-belgian-red-ale/" target="_blank" class="btn btn-outline-primary">Product Template</a>
-					<a href="/omb/contact-us/" target="_blank" class="btn btn-outline-primary">Contact Template</a>
+					<a href="/projects/omb/index.html" target="_blank" class="btn btn-outline-primary">Home Template</a>
+					<a href="/projects/omb/about-the-brewery/our-brewery/" target="_blank" class="btn btn-outline-primary">About Template</a>
+					<a href="/projects/omb/our-brews/" target="_blank" class="btn btn-outline-primary">Navigation Template</a>
+					<a href="/projects/omb/our-brews/rudders-red-belgian-red-ale/" target="_blank" class="btn btn-outline-primary">Product Template</a>
+					<a href="/projects/omb/contact-us/" target="_blank" class="btn btn-outline-primary">Contact Template</a>
 				</div>
 				<div class="justify-content-center d-flex flex-wrap p-1">
 					<a href="../uploads/content/omb-wireframe1.png" target="_blank" class="btn btn-outline-primary">Wireframe 1</a>
@@ -385,7 +399,7 @@
 				</div>
 			</div>
 			<div class="modal-footer flex-column">
-				<a href="/weathrr/index.html" target="_blank" class="btn btn-outline-primary">View</a>
+				<a href="/projects/weathrr/index.html" target="_blank" class="btn btn-outline-primary">View</a>
 			</div>
 		</div>
 	</div>
@@ -421,7 +435,45 @@
 				</div>
 			</div>
 			<div class="modal-footer flex-column">
-				<a href="/tic-tac-toe/index.html" target="_blank" class="btn btn-outline-primary">Play</a>
+				<a href="/projects/tic-tac-toe/index.html" target="_blank" class="btn btn-outline-primary">Play</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Jokes App Modal -->
+<div class="modal fade" id="jokesModal" tabindex="-1" role="dialog" aria-labelledby="jokesModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="jokesModalLabel">Jokes App</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<img src="../uploads/content/thumbs/joke-app-thumb.jpg" alt="Jokes App" style="width:100%;">
+						</div>
+						<div class="col-lg-6">
+							<p>Simple app that pulls jokes and their punchlines using the <a href="https://github.com/15Dkatz/official_joke_api" target="_blank">Official Joke API</a>, built in both vanilla JS and ReactJS.</p>
+
+							<p><strong>Stack includes:</strong></p>
+							<ul>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Vanilla Javascript / React.JS</li>
+								<li><a href="https://github.com/15Dkatz/official_joke_api" target="_blank">Official Joke API</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer flex-column">
+				<a href="/projects/joke-app/index.html" target="_blank" class="btn btn-outline-primary">View (React version)</a>
+				<a href="/projects/joke-app-vanilla/index.html" target="_blank" class="btn btn-outline-primary">View (Vanilla JS version)</a>
 			</div>
 		</div>
 	</div>

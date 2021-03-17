@@ -35,10 +35,12 @@ cp -a ./uploads/ "$DEST/uploads"
 echo "Processing images..";
 
 #Copy omb, tic-tac-toe, lp1, weathrr, resume folders
-cp -a ./omb/ "$DEST/omb"
-cp -a ./tic-tac-toe/ "$DEST/tic-tac-toe"
-cp -a ./lp1/ "$DEST/lp1"
-cp -a ./weathrr/ "$DEST/weathrr"
+cp -a ./projects/omb/ "$DEST/projects/omb"
+cp -a ./projects/tic-tac-toe/ "$DEST/projects/tic-tac-toe"
+cp -a ./projects/lp1/ "$DEST/projects/lp1"
+cp -a ./projects/weathrr/ "$DEST/projects/weathrr"
+cp -a ./projects/joke-app/ "$DEST/projects/joke-app"
+cp -a ./projects/joke-app-vanilla/ "$DEST/projects/joke-app-vanilla"
 cp -a ./resume/ "$DEST/resume"
 echo "Processing additional folders..";
 
