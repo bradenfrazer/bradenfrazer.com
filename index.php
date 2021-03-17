@@ -266,6 +266,7 @@
 									<li>Contact Form 7</li>
 								</ul>
 							</ul>
+							<p><a href="https://github.com/bradenfrazer/spokesdemo" target="_blank">Github</a></p>
 						</div>
 					</div>
 				</div>
@@ -302,6 +303,7 @@
 								<li>CSS</li>
 								<li>Bootstrap 4</li>
 							</ul>
+							<p><a href="https://github.com/bradenfrazer/lp1" target="_blank">Github</a></p>
 						</div>
 					</div>
 				</div>
@@ -430,6 +432,7 @@
 								<li>CSS</li>
 								<li>React.JS</li>
 							</ul>
+							<p><a href="https://github.com/bradenfrazer/tic-tac-toe" target="_blank">Github</a></p>
 						</div>
 					</div>
 				</div>
@@ -467,6 +470,8 @@
 								<li>Vanilla Javascript / React.JS</li>
 								<li><a href="https://github.com/15Dkatz/official_joke_api" target="_blank">Official Joke API</li>
 							</ul>
+							<p><a href="https://github.com/bradenfrazer/joke-app" target="_blank">Github (React version)</a><br />
+							<a href="https://github.com/bradenfrazer/joke-app-vanilla" target="_blank">Github (Vanilla JS version)</a></p>
 						</div>
 					</div>
 				</div>
