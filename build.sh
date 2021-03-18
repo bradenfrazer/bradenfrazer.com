@@ -6,6 +6,7 @@ html=".html"
 
 # Create destination folder
 mkdir -p "$DEST/"
+mkdir -p "$DEST/projects/"
 
 # Execute all php files and save them as html
 for f in *.php;
@@ -32,7 +33,7 @@ done
 
 #Copy all uploads
 cp -a ./uploads/ "$DEST/uploads"
-echo "Processing images..";
+echo "Processing uploads..";
 
 #Copy omb, tic-tac-toe, lp1, weathrr, resume folders
 cp -a ./projects/omb/ "$DEST/projects/omb"
