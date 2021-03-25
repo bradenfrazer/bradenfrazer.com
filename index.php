@@ -94,6 +94,20 @@
 	<div class="container text-center">
 		<h3 id="webprojects">Personal Web Projects</h3>
 		<div class="row justify-content-center">
+		<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="card h-100 text-center">
+					<div class="card-header">
+						<h3 class="card-title">Pokedex</h3>
+						<h4 class="card-text">ReactJS Pokemon App</h4>
+					</div>
+					<img class="card-img-top" src="../uploads/content/thumbs/pokedex-thumb.jpg" alt="Pokedex" style="width:100%;">
+					<div class="card-footer">
+						<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#pokedexModal">
+							Learn More
+						</button>
+					</div>
+				</div>
+			</div>
 			<div class="col-sm-12 col-md-6 col-lg-4">
 				<div class="card h-100 text-center">
 					<div class="card-header">
@@ -126,7 +140,7 @@
 				<div class="card h-100 text-center">
 					<div class="card-header">
 						<h3 class="card-title">Jokes App</h3>
-						<h4 class="card-text">JavaScript API Demo</h4>
+						<h4 class="card-text">JavaScript APIs Demo</h4>
 					</div>
 					<img class="card-img-top" src="../uploads/content/thumbs/joke-app-thumb.jpg" alt="Jokes App" style="width:100%;">
 					<div class="card-footer">
@@ -364,6 +378,45 @@
 					<a href="../uploads/content/omb-wireframe2.png" target="_blank" class="btn btn-outline-primary">Wireframe 2</a>
 					<a href="../uploads/content/omb-wireframe2-mobile.png" target="_blank" class="btn btn-outline-primary">Wireframe 2 Mobile</a>
 				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Pokedex Modal -->
+<div class="modal fade" id="pokedexModal" tabindex="-1" role="dialog" aria-labelledby="pokedexModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="pokedexModalLabel">Pokedex</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<img src="../uploads/content/thumbs/pokedex-thumb.jpg" alt="Pokedex" style="width:100%;">
+						</div>
+						<div class="col-lg-6">
+							<p>Pokedex app based on the Pokemon series games, built in ReactJS. The app includes the full collection of 1000+ characters, sourced by the awesome <a href="https://pokeapi.co/" target="_blank">PokeAPI</a>. Clicking a Pokemon's card in the main list view will open a detailed view of the Pokemon with multiple images and stats about the monster. <a href="https://nostalgic-css.github.io/NES.css/" target="_blank">NES.css</a> was used as a framework for styling the app to give it that nice nostalgic, Gameboy feel.</p>
+
+							<p><strong>Stack includes:</strong></p>
+							<ul>
+								<li>Javascript</li>
+								<li>React.JS</li>
+								<li>TailwindCSS</li>
+								<li><a href="https://pokeapi.co/" target="_blank">PokeAPI</a></li>
+								<li><a href="https://nostalgic-css.github.io/NES.css/" target="_blank">NES.css</a></li>
+							</ul>
+							<p><a href="https://github.com/bradenfrazer/pokedex" target="_blank"><svg width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" color="currentColor"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg> Github</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer flex-column">
+				<a href="/projects/pokedex/index.html" target="_blank" class="btn btn-outline-primary">View</a>
 			</div>
 		</div>
 	</div>

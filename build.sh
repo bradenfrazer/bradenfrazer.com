@@ -35,13 +35,14 @@ done
 cp -a ./uploads/ "$DEST/uploads"
 echo "Processing uploads..";
 
-#Copy omb, tic-tac-toe, lp1, weathrr, resume folders
+#Copy project & resume folders
 cp -a ./projects/omb/ "$DEST/projects/omb"
 cp -a ./projects/tic-tac-toe/ "$DEST/projects/tic-tac-toe"
 cp -a ./projects/lp1/ "$DEST/projects/lp1"
 cp -a ./projects/weathrr/ "$DEST/projects/weathrr"
 cp -a ./projects/joke-app/ "$DEST/projects/joke-app"
 cp -a ./projects/joke-app-vanilla/ "$DEST/projects/joke-app-vanilla"
+cp -a ./projects/pokedex/ "$DEST/projects/pokedex"
 cp -a ./resume/ "$DEST/resume"
 echo "Processing additional folders..";
 
