@@ -98,7 +98,7 @@
 				<div class="card h-100 text-center">
 					<div class="card-header">
 						<h3 class="card-title">Pokedex</h3>
-						<h4 class="card-text">ReactJS Pokemon App</h4>
+						<h4 class="card-text">React Pokemon App</h4>
 					</div>
 					<img class="card-img-top" src="../uploads/content/thumbs/pokedex-thumb.jpg" alt="Pokedex" style="width:100%;">
 					<div class="card-footer">
@@ -112,7 +112,7 @@
 				<div class="card h-100 text-center">
 					<div class="card-header">
 						<h3 class="card-title">Weathrr</h3>
-						<h4 class="card-text">ReactJS Weather App</h4>
+						<h4 class="card-text">React Weather App</h4>
 					</div>
 					<img class="card-img-top" src="../uploads/content/thumbs/weathrr-thumb.png" alt="Weathrr" style="width:100%;">
 					<div class="card-footer">
@@ -126,7 +126,7 @@
 				<div class="card h-100 text-center">
 					<div class="card-header">
 						<h3 class="card-title">Tic Tac Toe</h3>
-						<h4 class="card-text">ReactJS Game</h4>
+						<h4 class="card-text">React Game</h4>
 					</div>
 					<img class="card-img-top" src="../uploads/content/thumbs/tictactoe-thumb.png" alt="Tic Tac Toe" style="width:100%;">
 					<div class="card-footer">
@@ -400,12 +400,12 @@
 							<img src="../uploads/content/thumbs/pokedex-thumb.jpg" alt="Pokedex" style="width:100%;">
 						</div>
 						<div class="col-lg-6">
-							<p>Pokedex app based on the Pokemon series games, built in ReactJS. The app includes the full collection of 1000+ characters, sourced by the awesome <a href="https://pokeapi.co/" target="_blank">PokeAPI</a>. Clicking a Pokemon's card in the main list view will open a detailed view of the Pokemon with multiple images and stats about the monster. <a href="https://nostalgic-css.github.io/NES.css/" target="_blank">NES.css</a> was used as a framework for styling the app to give it that nice nostalgic, Gameboy feel.</p>
+							<p>Pokedex app based on the Pokemon series games, built in React. The app includes the full collection of 1000+ characters, sourced by the awesome <a href="https://pokeapi.co/" target="_blank">PokeAPI</a>. Clicking a Pokemon's card in the main list view will open a detailed view of the Pokemon with multiple images and stats about the monster. <a href="https://nostalgic-css.github.io/NES.css/" target="_blank">NES.css</a> was used as a framework for styling the app to give it that nice nostalgic, Gameboy feel.</p>
 
 							<p><strong>Stack includes:</strong></p>
 							<ul>
 								<li>Javascript</li>
-								<li>React.JS</li>
+								<li>React</li>
 								<li>TailwindCSS</li>
 								<li><a href="https://pokeapi.co/" target="_blank">PokeAPI</a></li>
 								<li><a href="https://nostalgic-css.github.io/NES.css/" target="_blank">NES.css</a></li>
@@ -439,14 +439,14 @@
 							<img src="../uploads/content/thumbs/weathrr-thumb.png" alt="Weathrr" style="width:100%;">
 						</div>
 						<div class="col-lg-6">
-							<p>Weather conditions app built in ReactJS. A city name and country name are needed for input, and then the location name, current temperature, humidity, and conditions are pulled from OpenWeatherMap. More features to come soon!</p>
+							<p>Weather conditions app built in React. A city name and country name are needed for input, and then the location name, current temperature, humidity, and conditions are pulled from OpenWeatherMap. More features to come soon!</p>
 
 							<p><strong>Stack includes:</strong></p>
 							<ul>
 								<li>HTML</li>
 								<li>CSS</li>
 								<li>Bootstrap 4</li>
-								<li>React.JS</li>
+								<li>React</li>
 								<li><a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap API</li>
 							</ul>
 						</div>
@@ -477,13 +477,13 @@
 							<img src="../uploads/content/thumbs/tictactoe-thumb.png" alt="Tic Tac Toe" style="width:100%;">
 						</div>
 						<div class="col-lg-6">
-							<p>Simple Tic Tac Toe game built in ReactJS based on the <a href="https://reactjs.org/tutorial/tutorial.html" target="_blank">ReactJS.org intro tutorial</a>, with a built-in move history and my own personal responsive design.</p>
+							<p>Simple Tic Tac Toe game built in React based on the <a href="https://reactjs.org/tutorial/tutorial.html" target="_blank">ReactJS.org intro tutorial</a>, with a built-in move history and my own personal responsive design.</p>
 
 							<p><strong>Stack includes:</strong></p>
 							<ul>
 								<li>HTML</li>
 								<li>CSS</li>
-								<li>React.JS</li>
+								<li>React</li>
 							</ul>
 							<p><a href="https://github.com/bradenfrazer/tic-tac-toe" target="_blank"><svg width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" color="currentColor"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg> Github</a></p>
 						</div>
@@ -514,13 +514,13 @@
 							<img src="../uploads/content/thumbs/joke-app-thumb.jpg" alt="Jokes App" style="width:100%;">
 						</div>
 						<div class="col-lg-6">
-							<p>Simple app that pulls jokes and their punchlines using the <a href="https://github.com/15Dkatz/official_joke_api" target="_blank">Official Joke API</a>, built in both vanilla JS and ReactJS.</p>
+							<p>Simple app that pulls jokes and their punchlines using the <a href="https://github.com/15Dkatz/official_joke_api" target="_blank">Official Joke API</a>, built in both vanilla JS and React.</p>
 
 							<p><strong>Stack includes:</strong></p>
 							<ul>
 								<li>HTML</li>
 								<li>CSS</li>
-								<li>Vanilla Javascript / React.JS</li>
+								<li>Vanilla Javascript / React</li>
 								<li><a href="https://github.com/15Dkatz/official_joke_api" target="_blank">Official Joke API</li>
 							</ul>
 							<p><a href="https://github.com/bradenfrazer/joke-app" target="_blank"><svg width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" color="currentColor"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg> Github (React version)</a><br />
